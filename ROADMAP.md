@@ -3,22 +3,38 @@
 This file provides an overview of how the project is heading, tracking what i need to do or what i already did.
 
 ## Basic Movement
-- [ ] Walk/Run in both directions with smooth movement
-- [ ] Jump
-    - [ ] Gravity
+- [x] Walk/Run in both directions
+    - [ ] Acceleration
+    - [x] Sprite flip for both directions
+- [x] Jump
+    - [x] Gravity
     - [ ] Jump height
-    - [ ] Falling
-- [ ] 「[Leap of Faith](#-0---the-fool-)」 Double jump
+    - [x] Falling
+- [x] 「[Leap of Faith](#-0---the-fool-)」 Double jump
 
 ## Basic Interactions
 
 - [ ] Collision
-    - [ ] With walls
-    - [ ] With floor
-    - [ ] With platforms
+    - [x] With walls
+    - [x] With floor & ramps
+    - [ ] With moving platforms
 - [ ] Moving platforms
 - [ ] Room changing
 - [ ] Transitions
+
+## Sprites
+- [ ] Player
+    - [ ] Idle
+    - [ ] Walk
+    - [ ] Fall
+    - [ ] Jump
+    - [ ] Extra jump
+
+- [ ] Tile set
+    - [ ] Ramp
+    - [ ] Wall
+    - [ ] Floor
+
 
 ## Basic Combat
 
@@ -55,7 +71,7 @@ This file provides an overview of how the project is heading, tracking what i ne
 
 ## Debug Tools
 
-- [ ] Show informations about state machine
+- [x] Show informations about state machine
 - [ ] Show hitboxes
 - [ ] Manual teleport for any room
 

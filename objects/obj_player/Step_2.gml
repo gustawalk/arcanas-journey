@@ -20,8 +20,9 @@ repeat(abs(hspd)){
 
 repeat(abs(vspd)){
 	var _vspd = sign(vspd);
+	var _on_ground = instance_place(x, y + _vspd, obj_collision_father);
 	
-	if(place_meeting(x, y + _vspd, obj_collision_father)){
+	if(_on_ground){
 		vspd = 0;
 		break;
 	}else{

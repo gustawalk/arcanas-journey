@@ -88,7 +88,7 @@ switch(state){
 		break;
 	case "extrajump":
 		sprite_index = spr_player_extra_jump;
-		if(vspd > 0){
+		if(vspd > 0 && !_floor_collision){
 			change_state("fall", 0);
 		}else if(_floor_collision){
 			change_state("idle", 0);	

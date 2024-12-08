@@ -14,11 +14,11 @@ This file provides an overview of how the project is heading, tracking what i ne
 
 ## Basic Interactions
 
-- [ ] Collision
+- [x] Collision
     - [x] With walls
     - [x] With floor & ramps
-    - [ ] With moving platforms
-- [ ] Moving platforms
+    - [x] With moving platforms
+- [x] Moving platforms
 - [ ] Room changing
 - [ ] Transitions
 
